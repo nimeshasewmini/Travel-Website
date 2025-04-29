@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    padding: 15px 5px;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.83);
+    border-bottom: 2px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    border-radius: 50px;
+    color: rgb(93, 229, 229);
+}
+
+.active {
+    background-color: rgb(93, 229, 229);
+    border-radius: 50px;
+    color: black;
+}
+
+.icon {
+    float: left;
+}
+
+.icon img {
+    width: 35px;
+    height: 35px;
+    padding-left: 2px;
+}
+
+.name {
+    float: left;
+    align-items: center;
+    color: white;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 7px;
+}
+
+.main {
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.color {
+    text-align: center;
+}
+
+.content {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.content p {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333;
+}
+
+.content2 {
+    font-size: 18px;
+    padding: 20px;
+    color: #555;
+}
+
+.content2 p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.main-image, .sub-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .content {
+        font-size: 30px;
+    }
+
+    .content2 {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    li {
+        float: none;
+        text-align: center;
+    }
+
+    li a {
+        padding: 8px 20px;
+    }
+
+    .main-image, .sub-image {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        font-size: 24px;
+    }
+
+    .content2 {
+        font-size: 14px;
+    }
+
+    .icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    li a {
+        padding: 8px 15px;
+    }
+
+    .main-image, .sub-image {
+        width: 100%;
+    }
+}
